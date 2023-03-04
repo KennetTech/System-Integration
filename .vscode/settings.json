@@ -1,0 +1,8 @@
+{
+    "java.project.sourcePaths": [
+        "09_OpenAPI/java/swagger2",
+        "09_OpenAPI/java/openapi/src/main/java/com/example/openapi"
+    ],
+    "java.compile.nullAnalysis.mode": "disabled",
+    "java.configuration.updateBuildConfiguration": "automatic"
+}
