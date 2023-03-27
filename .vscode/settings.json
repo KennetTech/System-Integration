@@ -4,5 +4,13 @@
         "09_OpenAPI/java/openapi/src/main/java/com/example/openapi"
     ],
     "java.compile.nullAnalysis.mode": "disabled",
-    "java.configuration.updateBuildConfiguration": "automatic"
+    "java.configuration.updateBuildConfiguration": "automatic",
+    "azureFunctions.deploySubpath": "AzureWebhookTest",
+    "azureFunctions.scmDoBuildDuringDeployment": true,
+    "azureFunctions.pythonVenv": ".venv",
+    "azureFunctions.projectLanguage": "JavaScript",
+    "azureFunctions.projectRuntime": "~4",
+    "debug.internalConsoleOptions": "neverOpen",
+    "azureFunctions.postDeployTask": "npm install (functions)",
+    "azureFunctions.preDeployTask": "npm prune (functions)"
 }
