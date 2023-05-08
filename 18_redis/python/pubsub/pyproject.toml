@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "pubsub"
+version = "0.1.0"
+description = ""
+authors = ["KennetTech <64315533+KennetTech@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+redis = "^4.5.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
