@@ -309,3 +309,21 @@ poetry.toml
 
 # End of https://www.toptal.com/developers/gitignore/api/python,node
 .fake
+
+# DB
+.db
+
+# slides
+.pptx
+Slides/1._Intro_Overview.pptx
+Slides/2._Data.pptx
+Slides/3._Standards.pptx
+Slides/4._Communication_Protocols_I.pptx
+Slides/5_Communication_Protocols_II.pptx
+Slides/6_Communication_Protocols_III.pptx
+Slides/8._Media.pptx
+Slides/9._Event-driven_systems.pptx
+Slides/Azure.pptx
+Slides/Miscellaneous Slides.pptx
+Slides/Redis_I_Fundamentals.pptx
+Slides/Redis_II_Advanced.pptx

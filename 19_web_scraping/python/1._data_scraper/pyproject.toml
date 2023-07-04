@@ -1,14 +1,16 @@
 [tool.poetry]
-name = "python"
+name = "1-data-scraper"
 version = "0.1.0"
 description = ""
 authors = ["KennetTech <64315533+KennetTech@users.noreply.github.com>"]
 readme = "README.md"
+packages = [{include = "1"}]
 
 [tool.poetry.dependencies]
 python = "^3.9"
-fastapi = "^0.95.2"
-uvicorn = "^0.22.0"
+beautifulsoup4 = "^4.12.2"
+requests = "^2.30.0"
+lxml = "^4.9.2"
 
 
 [build-system]

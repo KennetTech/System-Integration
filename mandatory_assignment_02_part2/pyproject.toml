@@ -1,14 +1,17 @@
 [tool.poetry]
-name = "python"
+name = "mandatory-assignment-02-part2"
 version = "0.1.0"
 description = ""
 authors = ["KennetTech <64315533+KennetTech@users.noreply.github.com>"]
 readme = "README.md"
+packages = [{include = "mandatory_assignment_02_part2"}]
 
 [tool.poetry.dependencies]
 python = "^3.9"
-fastapi = "^0.95.2"
-uvicorn = "^0.22.0"
+beautifulsoup4 = "^4.12.2"
+requests = "^2.31.0"
+lxml = "^4.9.2"
+redis = "^4.5.5"
 
 
 [build-system]

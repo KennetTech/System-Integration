@@ -1,14 +1,14 @@
 [tool.poetry]
-name = "python"
+name = "4-scrapy-wiki"
 version = "0.1.0"
 description = ""
 authors = ["KennetTech <64315533+KennetTech@users.noreply.github.com>"]
 readme = "README.md"
+packages = [{include = "4_scrapy_wiki"}]
 
 [tool.poetry.dependencies]
 python = "^3.9"
-fastapi = "^0.95.2"
-uvicorn = "^0.22.0"
+scrapy = "^2.9.0"
 
 
 [build-system]
